@@ -1,4 +1,4 @@
-03054ac1322b2eaf14f03feaab103586 *DESCRIPTION
+7b2f6e555ea4f81f851a19f452ea6f48 *DESCRIPTION
 f04446fb82fbf55174514e2b88b40b97 *NAMESPACE
 b1459dfa048dd322f90fa4b7b13170e8 *R/Heteromys_anomalus_South_America.R
 6751608a1c3d9acccd0ce28ccb6cea10 *R/packages.R
@@ -6,14 +6,14 @@ b1459dfa048dd322f90fa4b7b13170e8 *R/Heteromys_anomalus_South_America.R
 9f953112c02ae232e555b5d3b23a8080 *R/summary_thin.R
 e96c8d69ba70566cd674161fb68a3714 *R/thin.R
 4b2f1a349fadad4cefcb88f124bfc9d8 *R/thin.algorithm.R
-7ebaf3f6e43b64d358fd0f20e6423a66 *build/vignette.rds
-5aca617b74bac8776b33e6a8f8f77316 *data/Heteromys_anomalus_South_America.rda
-8b04e5012b6e1c65d976d077ab3a7d52 *inst/doc/spThin_vignette.R
-d3e9bdc51c2ccbf2b84b41a952a3f7ec *inst/doc/spThin_vignette.Rmd
-54592a1cbde27362403877d430641ae1 *inst/doc/spThin_vignette.html
+8a72037d2fa07664048eaa57a04c9eee *build/vignette.rds
+43fc49c8b5ba4eee4636d94d98ea1024 *data/Heteromys_anomalus_South_America.rda
+4f87e8cc673810b7c71c1aaca7fe666c *inst/doc/spThin_vignette.R
+b54786480506144b7f0e90980fcf8463 *inst/doc/spThin_vignette.Rmd
+6fa3f26a5738a0ec46d54ee9d1dd8fb2 *inst/doc/spThin_vignette.html
 fc9cafb3acc31d4f60f4420f24a43604 *man/Heteromys_anomalus_South_America.Rd
 5a9bb85c6b5feb883b43ded7346bae17 *man/plotThin.Rd
 628f6ee7cbedb0965631ef7aa8e4b2a4 *man/summaryThin.Rd
 d05e2746f4fd86577d33b11b1000c4b4 *man/thin.Rd
 a314a2ca4a569f9b8a01b21b4c2f9d84 *man/thin.algorithm.Rd
-d3e9bdc51c2ccbf2b84b41a952a3f7ec *vignettes/spThin_vignette.Rmd
+b54786480506144b7f0e90980fcf8463 *vignettes/spThin_vignette.Rmd

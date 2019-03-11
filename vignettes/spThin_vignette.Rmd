@@ -22,14 +22,10 @@ rather than a single large set of occurrences.
 
 # Load the `spThin` R package
 
-Here we load the R package from source code. This source code will soon be
-submitted to CRAN, so that this package can be loaded using standard 
-package management methods
+Here we load the R package.
 
 ```{r load_package}
 
-## Install package from source, then load package into workspace
-install.packages( type = "source", pkgs = "spThin_0.1.0.tar.gz", repos = NULL )
 library( spThin )
 
 ```
