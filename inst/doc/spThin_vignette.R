@@ -1,7 +1,5 @@
 ## ----load_package--------------------------------------------------------
-
 library( spThin )
-
 
 ## ------------------------------------------------------------------------
 data( Heteromys_anomalus_South_America )
@@ -17,11 +15,21 @@ thinned_dataset_full <-
         spec.col = "SPEC", 
         thin.par = 10, reps = 100, 
         locs.thinned.list.return = TRUE, 
-        write.files = TRUE, 
-        max.files = 5, 
-        out.dir = "hanomalus_thinned_full/", out.base = "hanomalus_thinned", 
-        write.log.file = TRUE,
-        log.file = "hanomalus_thinned_full_log_file.txt" )
+        write.files = FALSE, 
+        write.log.file = FALSE)
+
+## ---- eval=FALSE---------------------------------------------------------
+#  thinned_dataset_full <-
+#    thin( loc.data = Heteromys_anomalus_South_America,
+#          lat.col = "LAT", long.col = "LONG",
+#          spec.col = "SPEC",
+#          thin.par = 10, reps = 100,
+#          locs.thinned.list.return = TRUE,
+#          write.files = TRUE,
+#          max.files = 5,
+#          out.dir = "hanomalus_thinned_full/", out.base = "hanomalus_thinned",
+#          write.log.file = TRUE,
+#          log.file = "hanomalus_thinned_full_log_file.txt" )
 
 ## ------------------------------------------------------------------------
 plotThin( thinned_dataset_full )
@@ -33,11 +41,8 @@ thinned_dataset_mainland <-
         spec.col = "SPEC", 
         thin.par = 10, reps = 100, 
         locs.thinned.list.return = TRUE, 
-        write.files = TRUE, 
-        max.files = 5, 
-        out.dir = "hanomalus_thinned_mainland/", out.base = "hanomalus_thinned", 
-        write.log.file = TRUE,
-        log.file = "hanomalus_thinned_mainland_log_file.txt" )
+        write.files = FALSE, 
+        write.log.file = FALSE)
 
 ## ------------------------------------------------------------------------
 thinned_dataset_trin <-
@@ -46,11 +51,8 @@ thinned_dataset_trin <-
         spec.col = "SPEC", 
         thin.par = 10, reps = 10, 
         locs.thinned.list.return = TRUE, 
-        write.files = TRUE, 
-        max.files = 5, 
-        out.dir = "hanomalus_thinned_trin/", out.base = "hanomalus_thinned", 
-        write.log.file = TRUE,
-        log.file = "hanomalus_thinned_trin_log_file.txt" )
+        write.files = FALSE, 
+        write.log.file = FALSE)
 
 ## ------------------------------------------------------------------------
 thinned_dataset_mar <-
@@ -59,11 +61,8 @@ thinned_dataset_mar <-
         spec.col = "SPEC", 
         thin.par = 10, reps = 10, 
         locs.thinned.list.return = TRUE, 
-        write.files = TRUE, 
-        max.files = 5, 
-        out.dir = "hanomalus_thinned_mar/", out.base = "hanomalus_thinned", 
-        write.log.file = TRUE,
-        log.file = "hanomalus_thinned_mar_log_file.txt" )
+        write.files = FALSE, 
+        write.log.file = FALSE )
 
 ## ------------------------------------------------------------------------
 thinned_dataset_tobago <-
@@ -72,9 +71,6 @@ thinned_dataset_tobago <-
         spec.col = "SPEC", 
         thin.par = 10, reps = 10, 
         locs.thinned.list.return = TRUE, 
-        write.files = TRUE, 
-        max.files = 5, 
-        out.dir = "hanomalus_thinned_tobago/", out.base = "hanomalus_thinned", 
-        write.log.file = TRUE,
-        log.file = "hanomalus_thinned_tobago_log_file.txt" )
+        write.files = FALSE, 
+        write.log.file = FALSE )
 

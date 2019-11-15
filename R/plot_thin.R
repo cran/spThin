@@ -1,4 +1,6 @@
 #' @export plotThin
+#' @import graphics
+#' @import grDevices
 #' @title Plot diagnosis for results of thin function 
 #' 
 #' @description
@@ -29,6 +31,11 @@ plotThin <- function(thinned, which=c(1:3),
   ## Look at the number of locs kept in each thinned dataset
   ## by determining the number of rows in each returned data.frame
   lat.long.thin.count <- unlist(lapply(thinned, nrow ))
+  
+  ## Radnomize lat.long.thin.count, becaues by default the output
+  ## from thin.algorithm sorts the data from greatest to least 
+  ## number of points
+  lat.long.thin.count <- sample(lat.long.thin.count)
   
   ## Create a vector of cummulative maximum records at each 
   ## repetition number
